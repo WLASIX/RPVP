@@ -1,0 +1,3 @@
+﻿  PRVP_2.cpp
+C:\Users\Admin\source\repos\PRVP_2\PRVP_2\PRVP_2.cpp(93,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  PRVP_2.vcxproj -> C:\Users\Admin\source\repos\PRVP_2\x64\Debug\PRVP_2.exe
