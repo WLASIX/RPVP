@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (ring.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  PRVP_1.cpp
+C:\Users\Admin\source\repos\PRVP_1\PRVP_1\PRVP_1.cpp(170,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Admin\source\repos\PRVP_1\PRVP_1\PRVP_1.cpp(180,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  PRVP_1.vcxproj -> C:\Users\Admin\source\repos\PRVP_1\x64\Debug\PRVP_1.exe
