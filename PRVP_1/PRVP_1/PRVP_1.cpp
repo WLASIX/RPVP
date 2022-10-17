@@ -1,4 +1,5 @@
 ﻿#include <mpi.h>
+#include <stdlib.h>
 #include <ctime>
 #include <iostream>
 
@@ -166,7 +167,7 @@ void AllToAll(int size, int arraySize, int rank) // каждый процесс 
 	
 }
 
-void main(int argc, char** argv)
+int main(int argc, char** argv)
 {
 	MPI_Init(&argc, &argv);
 
@@ -189,6 +190,7 @@ void main(int argc, char** argv)
 		AllToAll(size, arraySize, rank);
 
 	MPI_Finalize();
+	return 0;
 }
 
 // mpiexec -n <кол-во процессов> PRVP_1.exe <кол-во символов> <номер операции>
